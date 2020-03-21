@@ -1,0 +1,26 @@
+{
+  "name": "eslint-action",
+  "version": "1.0.0",
+  "description": "This is a GitHub Action that runs ESLint for `.js`, `.jsx`, and `.tsx` files using your `.eslintrc` rules. It's free to run and it'll annotate the diffs of your pull requests with lint errors and warnings.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianschmidt1994/eslint-action.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/florianschmidt1994/eslint-action/issues"
+  },
+  "homepage": "https://github.com/florianschmidt1994/eslint-action#readme",
+  "dependencies": {
+    "@octokit/rest": "^17.1.1",
+    "eslint": "^6.8.0"
+  }
+}
